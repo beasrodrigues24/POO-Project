@@ -90,7 +90,7 @@ public class Controller implements ControllerInterface{
         // Attempts to read game data from file "logs.txt"
         Map.Entry<Map<String, Team>, Map.Entry< List<GameHistory>, Game>> game_data = null;
         try {
-            Map.Entry<Map<String, Team>, List<GameHistory>> auxParser = Parser.parse("logs.txt");
+            Map.Entry<Map<String, Team>, List<GameHistory>> auxParser = Parser.parse("data/logs.txt");
             game_data = new AbstractMap.SimpleEntry<>(auxParser.getKey(), new AbstractMap.SimpleEntry<>(auxParser.getValue(), null));
             flag = true;
         }
