@@ -8,4 +8,4 @@ Done in the context of POO (Object Oriented Programming) in University of Minho
 
 [Gabriela Moreira Prata](https://github.com/GabrielaPrata)
 
-Grade: /20
+Grade: 16/20
